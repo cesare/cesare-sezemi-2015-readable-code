@@ -31,3 +31,13 @@ p recipe_content
 ```
 
 * `#gets` で取得してきた値に `recipe_content` という名前を付けているところが良い。何を意図しているのかが分かる。
+
+## @takujifunao さん
+
+https://github.com/takujifunao/takujifunao-sezemi-2015-readable-code/blob/master/readable.rb#L5
+
+```ruby
+puts File.open("spec3-data.txt").read
+```
+
+* 「ファイルを開けて中身を読み出して、そのまま出力する」という処理の流れが一目瞭然で良い。
